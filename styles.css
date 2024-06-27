@@ -126,7 +126,7 @@ a{
    color: aliceblue;
    padding: 0.5rem 1.3rem;
    font-size: 19px;
-   box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.451);
+   box-shadow: 5px 5px 7px 0px rgba(21, 62, 156, 0.668);
    position: relative;
    z-index:1;
 }
@@ -230,7 +230,9 @@ a{
 }
 #projects2{
     background-image: url(./images/project2bg.png);
- #projects3{
+}
+
+#projects3{
     background-image: url(./images/project-3bg.png);
 }
 .project-card::after{
@@ -357,8 +359,8 @@ a{
     font-size: 15rem;
     font-style: bold;
     color: rgb(231, 231, 231);
-    bottom: -34.5%;
-    right:-25%;
+    bottom: -25.5%;
+    right:-15%;
     user-select: none;
     overflow-y: hidden;
 }
