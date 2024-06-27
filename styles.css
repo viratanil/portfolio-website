@@ -230,6 +230,8 @@ a{
 }
 #projects2{
     background-image: url(./images/project2bg.png);
+ #projects3{
+    background-image: url(./images/project-3bg.png);
 }
 .project-card::after{
     content: "";
