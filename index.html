@@ -1,192 +1,312 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio project</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
     <div id="wrapper">
         <div class="container">
-            <div class="nav-bar">
+            <div class="navbar">
+
                 <div class="logo-container">
-                    <img src="./images/nav-logo.jpeg" class="logo" >
-                    <div class="logo-text">irat Anil</div>
+
+                    <img src="images/nav-logo.jpeg" class="logo" alt="" width="70px">
+                    <div class="logotext"> irat Anil</div>
                 </div>
 
-                <div class="nav-item">
-                    <div><a href="#projects">Projects</a></div>                    
+                <div class="nav-items">
+
+                    <div><a href="#projects">Projects</a></div>
                     <div><a href="#skills">Skills</a></div>
-                    <div><a href="#contactme">Contact Me</a></div>
+                    <div><a href="#contact-me">Contact Me</a></div>
                 </div>
+
+
             </div>
-        
+
+
+
             <div class="hero-section">
-            <div class=" absolute faded-text">Virat Anil</div>
 
-            <div class="hero-sectin-left" >
-                <div class="hero-secion-heading">Hi! Virat Anil </div>
-                <div class=" hero-secion-heading hero-section-sub-heading">
-                    I am a <span class="role"></span>
+                <div class="fadedtext">Virat Anil</div>
+
+
+                <div class="hero-section-left">
+                    <div class="hero-section-heading">
+                        Hi! Virat Anil
+                    </div>
+
+                    <div class="hero-section-sub-haeding hero-section-heading">
+                        I am a <span class="role"></span>
+                    </div>
+
+                    <div class="hero-section-description">
+
+                        I'm a software developer and here is my portfolio website. Here you'll learn about my journey as
+                        a
+                        software developer.
+                    </div>
+
+                    <div id="btn-top" class="btn-pink" > <a href="https://drive.google.com/file/d/1wIUPjvLFKf_u35RNKvHFvXc1SMFq0sOW/view" style="color: rgb(0, 0, 0);">Resume <i class="fas fa-link"></i></a></div>
                 </div>
-                <div class="hero-section-description">
-                     I am a software developer and here is my portfolio website. Here you'll 
-                     learn about my journey as a software developer. 
+
+                <div class="hero-section-right">
+
+                    <div class="absolute icons icon-dots">
+                        <img src="dots.png" alt="">
+                    </div>
+                    <div class="absolute icons icon-cube">
+
+                        <img src="cube.png" alt="">
+
+                    </div>
+                    <div class="absolute icons icon-circle">
+                        <img src="circle.png" alt="">
+                    </div>
+                    <div class="absolute icons icon-zigzak">
+                        <img src="zigzags.png" alt="">
+                    </div>
+                    <div class="absolute icons icon-plus">
+                        <img src="plus.png" alt="">
+                    </div>
+
+                    <div class="user-image">
+                        <img src="./images/userimage.jpg" width="300" height="400" alt="">
+                    </div>
+
+
+
+
                 </div>
-                <div > <a href="https://drive.google.com/file/d/1wIUPjvLFKf_u35RNKvHFvXc1SMFq0sOW/view" class="btn" id="btn-pink"> Hire me</a></div>
+
+                <div class="btn-pink" id="btn-bottom"><a href="https://drive.google.com/file/d/1wIUPjvLFKf_u35RNKvHFvXc1SMFq0sOW/view" style="color: rgb(0, 0, 0);">Resume <i class="fas fa-link"></i></a></div>
+
             </div>
 
-            <div class="hero-section-right">
-                <!-- <div class="absolute icon iocn-circle">
-                    <img src="./images/circle.png" alt="" style="height: 40px; width: 40px;">
-                </div>
-                <div class="absolute icon iocn-cube">
-                    <img src="./images/cube.png" alt="" style="height: 45px; width: 45px;">
-                </div>
-                <div class="absolute icon iocn-plus">
-                    <img src="./images/plus.png" alt="" style="height: 40px; width: 40px;">
-                </div> -->  
-                <div class="user-image">
-                    <img src="./images/userimage.jpg" alt="" style="height: 400px; width: 300px;">
-                </div>
 
-            </div>
-
-            </div>
         </div>
-            <div class="project-section" id="projects">
-        <h2 class="page-header">Projects</h2>
-        <div class="projects-container" >
-             <div class="project-card" id="projects1">
-                <div class="projects-number projects-number-right">01</div>
+
+        <div class="project-section" id="projects">
+            <h2 class="page-header">Projects</h2>
+
+
+
+            <div class="project-container">
+                <div class="project-card" id="project1">
+                    <div class="project-number project-number-left">01</div>
+                    <div class="project-content project-content-left">
+
+                        <div class="project-skill-container">
+                            <img class="project-skill" src="stack/HTML.png" alt="" />
+                            <img class="project-skill" src="stack/CSS.png" alt="" />
+                            <img class="project-skill" src="stack/Javascript.svg" alt="" />
+                            <!-- <img class="project-skill" src="stack/Express.png" alt="" />
+                            <img class="project-skill" src="stack/NextJsCircle.png" alt="" /> -->
+                            <!-- <img class="project-skill" src="stack/Tailwind.png" alt="" /> -->
+                            <!-- <img class="project-skill" src="stack/NodeJs.svg" alt="" />
+                            <img class="project-skill" src="stack/MongoDB.svg" alt="" />
+                            <img class="project-skill" src="stack/Redux.svg" alt="" />
+                            <img class="project-skill" src="stack/Vercel.svg" alt="" /> -->
+                           <img src="./images/icons8-bootstrap-logo-48.png" alt="" style="height: 45px; width: 45px;">
+                        </div>
+
+                        <h2 class="project-heading">
+                            Virat Anil Studio
+                        </h2>
+
+                        <p class="project-sub-heading">
+                            I'm Virat Anil a Professional Photographer from India.
+                        </p>
+
+                        <div class="btn-group">
+                            <button class="btn-pink btn-project"> <a href="https://github.com/viratanil/virat-anil-studio" style="color: rgb(0, 0, 0);">Read More</a></button>
+                            <a href="">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="project-card" id="project2">
+                    <div class="project-number project-number-right">02</div>
+                    <div class="project-content project-content-right">
+                        <div class="project-skill-container">
+                            <img class="project-skill" src="stack/HTML.png" alt="" />
+                            <img class="project-skill" src="stack/CSS.png" alt="" />
+                            <img class="project-skill" src="stack/Javascript.svg" alt="" />
+                            <!-- <img class="project-skill" src="stack/NextJsCircle.png" alt="" />
+                            <img class="project-skill" src="stack/Tailwind.png" alt="" />
+                            <img class="project-skill" src="stack/Redux.svg" alt="" />
+                            <img class="project-skill" src="stack/Vercel.svg" alt="" /> -->
+                        </div>
+                        <h2 class="project-heading">Music Player With Slider</h2>
+                        <p class="project-sub-heading">
+                            It is a frontend Application with Music.
+                        </p>
+                        <div class="btn-group">
+                            <button class="btn-pink btn-project"> <a href="https://github.com/viratanil/Music-Player-With-Slider" style="color: rgb(0, 0, 0);">Read More</a></button>
+                            <a href="">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project3">
+                    <div class="project-number project-number-left">03</div>
                     <div class="project-content project-content-left">
                         <div class="project-skill-container">
-                            <img src="./images/html.png" alt="" style="height: 45px; width: 45px;">
-                            <img src="./images/css.png" alt="" style="height: 45px; width: 45px;">
-                            <img src="./images/icons8-bootstrap-logo-48.png" alt="" style="height: 45px; width: 45px;">
-                            <img src="./images/javascript.png" alt="" style="height: 45px; width: 45px;">
+                            <img class="project-skill" src="stack/HTML.png" alt="" />
+                            <img class="project-skill" src="stack/CSS.png" alt="" />
+                            <img class="project-skill" src="stack/Javascript.svg" alt="" />
+                            <!-- <img class="project-skill" src="stack/NextJsCircle.png" alt="" /> -->
+                            <img class="project-skill" src="stack/Tailwind.png" alt="" />
                         </div>
-                            <h2 class="project-heading">Virat Anil Studio</h2>
-                            <div class="project-sunheading">I'm Virat Anil a Professional Photographer from India</div>
-                            <div > <a href="https://github.com/viratanil/virat-anil-studio" class="btn-projects btn" id="btn-pink">Read More</a></div>
-                    </div>
-             </div>
-             <div class="project-card" id="projects2">
-                <div class="projects-number projects-number-left">02</div>
-                <div class="project-content project-content-right">
-                  <div class="project-skill-container">
-                    <img src="./images/html.png" alt="" style="height: 45px; width: 45px;">
-                    <img src="./images/css.png" alt="" style="height: 45px; width: 45px;">
-                    <!-- <img src="./images/icons8-bootstrap-logo-48.png" alt="" style="height: 45px; width: 45px;">
-                    <img src="./images/javascript.png" alt="" style="height: 45px; width: 45px;"> -->
-                  </div>
-                    <h2 class="project-heading">Great festival</h2>
-                    <div class="project-sunheading">दीपों के पर्व का जश्न</div>
-                    <div class="btn-grp">
-                      <div class="btn-projects btn" id="btn-pink">Read More</div>
-                      <!-- <div class="icon1"> <img src="./images/icons8-github-80.png" height="37px" width="37px" alt=""></div>
-                      <div class="icon2"> <img src="./images/icons8-link.png" alt=""></div> -->
+
+                        <h2 class="project-heading">Razorpay-Clone</h2>
+                        <p class="project-sub-heading">
+                            Advanced Payment Solutions
+                            for India's finest disruptors
+                        </p>
+                        <div class="btn-group">
+                            <button class="btn-pink btn-project"> <a href="https://github.com/viratanil/Razorpay-clone" style="color: rgb(0, 0, 0);">Read More</a></button>
+                            <a href="">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-             </div>
-             <div class="project-card" id="projects3">
-                <div class="projects-number projects-number-left">03</div>
-                <div class="project-content project-content-right">
-                  <div class="project-skill-container">
-                    <img src="./images/html.png" alt="" style="height: 45px; width: 45px;">
-                    <img src="./images/css.png" alt="" style="height: 45px; width: 45px;">
-                    <img src="./images/Tailwind CSS.png" alt="" style="height: 45px; width: 45px;">
-                    <img src="./images/javascript.png" alt="" style="height: 45px; width: 45px;">
-                  </div>
-                    <h2 class="project-heading">Razorpay</h2>
-                    <div class="project-sunheading">Advanced Payment Solutions
-                        for India's finest disruptors</div>
-                    <div class="btn-grp">
-                      <div > <a href="https://github.com/viratanil/Razorpay-clone" class="btn-projects btn" id="btn-pink">Read More</a></div>
-                      <!-- <div class="icon1"> <img src="./images/icons8-github-80.png" height="37px" width="37px" alt=""></div>
-                      <div class="icon2"> <img src="./images/icons8-link.png" alt=""></div> -->
-                    </div>
-                </div>
-             </div>
-        </div>
             </div>
+        </div>
+
         <div id="skills" class="container skills-container">
-            <div class="skill-faded-text">skills</div>   
+
+            <div class="skill-faded-text">
+                Skills
+            </div>
 
             <div class="skill-container-left">
+
                 <h2 class="skill-heading">
                     <span class="caps">M</span>e and
                     <br>
                     MyTech Stack
-
                 </h2>
 
-                <div class="skill-subheading">
+                <div class="skill-subHeading">
                     <p>
                         Hi Everyone My name is Virat Anil I am a Full Stack Web Developer. Currently 
                         I am pursuing Bachelor Of Technology.
                     </p>
+                    <p>
+                        My frontend skills in React, JavaScript, HTML, and CSS allow me to build responsive and
+                         visually appealing user interfaces that deliver seamless user experiences.
+                    </p>
                 </div>
+
+
             </div>
 
             <div class="skill-container-right">
-                <img src="./images/blob.png" class="blob-style" alt="" />
-                <img src="./images/html2.png" alt="" class="skill-logo">
-                <img src="./images/css2.png" alt="" class="skill-logo">
-                <img src="./images/vecteezy_3d-js-file-extension-document-illustration-concept-icon_23741764.png" alt="" class="skill-logo">
-                <img src="./images/Tailwind CSS.png" alt="" class="skill-logo">
-                <img src="./images/React.png" alt="" class="skill-logo">
+
+                <img src="blob vector.png" class="blob-style" alt="" />
+
+                <img src="stack/HTML.png" alt="" class="skills-logo" />
+                <img src="stack/CSS.png" alt="" class="skills-logo" />
+                <img src="stack/Javascript.svg" alt="" class="skills-logo" />
+                <!-- <img src="stack/React.png" alt="" class="skills-logo" /> -->
+                <!-- <img src="stack/NodeJs.svg" alt="" class="skills-logo" />
+                <img src="stack/Next.svg" alt="" class="skills-logo" />
+                <img src="stack/Redux.svg" alt="" class="skills-logo" /> -->
+                <img src="stack/Tailwind.png" alt="" class="skills-logo" />
+                <!-- <img src="stack/Bootstrap.svg" alt="" class="skills-logo" />
+                <img src="stack/MaterialUI.svg" alt="" class="skills-logo" />
+                <img src="stack/Express.png" alt="" class="skills-logo" /> -->
+                <img src="stack/Git.svg" alt="" class="skills-logo" />
+                <img src="stack/Github.svg" alt="" class="skills-logo" />
+                <!-- <img src="stack/Graphql.svg" alt="" class="skills-logo" />
+                <img src="stack/MongoDB.svg" alt="" class="skills-logo" />
+                <img src="stack/Vercel.svg" alt="" class="skills-logo" />
+                <img src="stack/ChartJs.svg" alt="" class="skills-logo" />
+                <img src="stack/Bash.svg" alt="" class="skills-logo" />
+                <img src="stack/Docker.svg" alt="" class="skills-logo" />
+                <img src="stack/K8s.svg" alt="" class="skills-logo" /> -->
             </div>
 
         </div>
 
-        <div class="contact-us-container" id="contactme">
-            <div class="container">
+        <div class="contactus-form-container" id="contact-me">
 
-                <h1 class="contactus-heading">Contact Me</h1>
-                
-                <h3 class="contactus-subheading">
-                    Questions, thoughts, or just want to say hello?
-                </h3>
+            <div class="container">
+                <h1 class="contactus-heading">Contact me</h1>
+
+                <h3 class="contact-us-subheading">Questions, Thoughts, Or Just Want To Say Hello?</h3>
 
                 <div class="contactus-form-container">
-                    <form class="form" action="" >
-                        <div class="formfilled-container">
-                            <input type="text" class="formfield" name="name" id="" placeholder="Enter your name">
+                    <form class="form" action="">
 
-                            <input type="email" class="formfield" name="email" id="" placeholder="Enter your email address">
+                        <div class="formfield-container">
+                            <input class="formfield" type="text" name="name" id="" placeholder="Enter your name">
 
-                            <input type="text" class="formfield" name="subject" id="" placeholder="Enter your subject">
 
-                            <textarea name="message" id="" cols="30" rows="10" class="formfield formfield-textarea" placeholder="Enter your message"></textarea>
+                            <input class="formfield" type="email" name="email" id=""
+                                placeholder="Enter your email adress">
 
+                            <input class="formfield" type="text" name="subject" id="" placeholder="Enter your subject">
+
+                            <textarea name="message" id="" cols="30" rows="10" class="formfield formfield-textarea"
+                                placeholder="Enter your message"></textarea>
                         </div>
-                            <button type="submit" id="btn-pink" class="submit-btn" >
-                                Send Message <i class="submit-icon fas fa-paper-plane"></i>
-                            </button>
-                        
 
+                        <div>
+                            <button type="submit" class="btn-pink" id="submit-btn">
+                                Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
+                            </button>
+                        </div>
                     </form>
                 </div>
             </div>
+
         </div>
 
         <footer>
-            <div class="container">
-                 <div class="footer-wrapper">
-                    <div class="footer-faded-text">Virat Anil</div>
-                 
-                    <div class="link-wrapper">
 
+            <div class="container">
+                <div class="footer-wrapper">
+
+                    <div class="footer-faded-text">
+                        Virat Anil
+                    </div>
+
+                    <div class="link-wrapper">
                         <div>
                             <a href="#projects">Projects</a>
                         </div>
 
                         <div>
-                            <a href="#skills">skills</a>
+                            <a href="#skills">Skills</a>
                         </div>
 
                         <div>
-                            <a href="#contactme">Contact Me</a> 
+                            <a href="#contact-me">Contact Us</a>
                         </div>
                     </div>
 
@@ -196,27 +316,36 @@
                        <a href="https://twitter.com/virat_anil_"> <i class="fa fa-twitter"></i></a>
                        <a href="https://github.com/viratanil"> <i class="fa fa-github"></i></a>
                     </div>
+
                 </div>
             </div>
 
         </footer>
-    </div> 
+
+
+
+    </div>
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
     <script>
-        var typeData= new Typed(".role",{
+        var typeData = new Typed(".role", {
             strings: [
                 "Full Stack Developer",
                 "Web Developer",
-                // "UI-UX Designer",
+                "UI-UX Designer",
                 "Backend Developer",
-                "coder",
+                "Coder",
             ],
-            loop:true,
+            loop: true,
             typeSpeed: 100,
             backSpeed: 80,
             backDelay: 1000,
-        })
+        });
     </script>
+
 </body>
+
 </html>
